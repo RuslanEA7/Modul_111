@@ -13,8 +13,8 @@
 #         print(b)
 #         b = b - 1
 # print("Завершение цикла")
-
-
+#
+#
 # for i in range(1,100):
 #     if i % 3 == 1 and 40 < i < 50:
 #         print(i)

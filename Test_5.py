@@ -1,7 +1,7 @@
 # string = input()
 #
 # numbers = string.split(" ")
-
+#
 # if len(numbers) == 4:
 #     result = int(numbers[0]) * int(numbers[1]) * int(numbers[2]) * int(numbers[3])
 #     print("Итого:",result)
@@ -14,8 +14,8 @@
 #     result = (float(numbers[0]) / float(numbers[1])).__format__(".3f")
 #     print("Итого:",result)
 #     print("Введено 1 или 2 числа")
-
-
+#
+#
 # integer = len(numbers)
 #
 # match integer:

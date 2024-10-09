@@ -1,5 +1,5 @@
 # string = (input("Введите числа через пробел и знак: ").split(" "))
-
+#
 # print(eval(string))
 #
 # number1 = float(string[0])
@@ -21,8 +21,8 @@
 #     print(result)
 # else:
 #     print("Неккорректные данные")
-
-
+#
+#
 # string = input("Введите 3 чсила: ").split(" ")
 # number = []
 # for i in string:
@@ -31,8 +31,8 @@
 # print("Max: ", max(number))
 # print("Min: ", min(number))
 # print("Avg: ", sum(number) / len(number))
-
-
+#
+#
 # string = input("Введите количество метров: ").split(" ")
 #
 # number1 = float(string[0])
