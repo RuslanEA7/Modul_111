@@ -1,5 +1,6 @@
+# Задание №1
+
 # string = input()
-#
 # if 0 < int(string) > 100:
 #     print("Ошибка")
 # else:
@@ -13,9 +14,9 @@
 #     else:
 #         print("Число:", number)
 
+# Задание №2
 
 # string = input("Введите число и степень:").split(" ")
-#
 # number = int(string[0])
 # stepen = int(string[1])
 # if 0 <= stepen <=7:
@@ -24,17 +25,10 @@
 # else:
 #     print("Ошибка")
 
+# Задание №3
 
 # string = input("Введите стоимость, с кого звоним, куда звоним:").split(" ")
-
 # price = float(string[0])
-# mtot = 0 # с мтс на теле2 0.2
-# # mtob = 1 # с мтс на билайн 0.3
-# # ttob = 2 # с теле2 на билайн 0.4
-# # mtob = 3 # мтс 0.1
-# # btob = 4 # билайн 0.1
-# # ttot = 5 # теле2 0.1
-
 # if string[1] == "m" and string[2] == "t":
 #     result = price * 0.2
 #     print(result)
@@ -55,32 +49,44 @@
 #     print(result)
 
 
+# Задание №4
+
 # string = input("Введите уровень продаж:").split(" ")
-# base = 200 # Базовая ставка 200$
-# percent = 0
-# premiya = 0
-# status = 0
-# if int(string[0]) > int(string[1]) > int(string[2]) or int(string[0]) > int(string[2]) > int(string[1]):
-#     status = 0
-#     print("Премия начислиться менеджеру №:", status)
-# if int(string[1]) > int(string[2]) > int(string[0]) or int(string[1]) > int(string[0]) > int(string[2]):
-#     status = 1
-#     print("Премия начислиться менеджеру №:", status)
-# if int(string[2]) > int(string[1]) > int(string[0]) or int(string[2]) > int(string[0]) > int(string[1]):
-#     status = 2
-#     print("Премия начислиться менеджеру №:", status)
+# number = []
+# volume_all = []
+#
+# for i in string:
+#     volume_all.append(int(i))
+#
+# premia = 200
+# max_volume = 0
+# print(string)
+# index_manager = 0
+#
+# for i in string:
+#     volume = int(i)
+#     zp = 200
+#     if 0 < volume < 500:
+#         zp *= 1.03
+#     elif 500 <= volume <= 1000:
+#         zp *= 1.05
+#     elif volume > 1000:
+#         zp *= 1.08
+#     number.append(zp)
+#
+# count_max = 0
+# for i in string:
+#     max_volume = max(volume_all)
+#     if max_volume == int(i):
+#         count_max += 1
+#         print("Колличество максимальных значений:", count_max)
+#
 # k = 0
 # for i in string:
-#     zp = int(i)
-#     if 0 < zp < 500:
-#         percent = 0.03
-#     elif 500 <= zp < 1000:
-#         percent = 0.05
-#     elif zp >= 1000:
-#         percent = 0.08
-#     if k == status:
-#         premiya += 200
-#         print("Менеджер №:",k+1,":", base * (1 + percent) + premiya)
-#     else:
-#         print("Менеджер №:", k+1, ":", base * (1 + percent))
+#     max_volume = max(volume_all)
+#     print(max_volume)
+#     if max_volume == int(i):
+#         print("Максимальное значение объёма:", i)
+#         number[k] += premia / count_max
 #     k += 1
+# print(number)
