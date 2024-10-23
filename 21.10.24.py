@@ -33,3 +33,7 @@
 # print("Кол-во четных:", len(even), "Ср. Ариф.:", sum(even) / len(even))
 # print("Кол-во нечетных:", len(odds), "Ср. Ариф.:", sum(odds) / len(odds))
 # print("Кол-во кратных 9:", len(int9), "Ср. Ариф.:", sum(int9) / len(int9))
+
+
+# Задание 2.
+
