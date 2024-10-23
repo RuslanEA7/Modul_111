@@ -35,5 +35,16 @@
 # print("Кол-во кратных 9:", len(int9), "Ср. Ариф.:", sum(int9) / len(int9))
 
 
-# Задание 2.
+# Задание 3.
 
+# while True:
+#     chislo = int(input("Введите число:"))
+#     if chislo == 7:
+#         print("Goodbye!")
+#         break
+#     elif chislo > 0:
+#         print("Положительное")
+#     elif chislo < 0:
+#         print("Отрицательное")
+#     elif chislo == 0:
+#         print("Ноль")
