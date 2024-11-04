@@ -81,7 +81,7 @@
 #         print(f'\n{num}.{figure[num][0].upper()}:')
 #         for row in matr:
 #             print(*row)
-#         if input('Выйти из программы(1)?: ') == 'Da':
+#         if input('Выйти из программы?: ') == 'Da':
 #             break
 #
 #
